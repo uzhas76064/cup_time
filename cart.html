@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Корзина</title>
+</head>
+<body>
+<header class="header cart-header">
+    <div class="container">
+        <a href="index.html" class="logo">
+            <img class="logo__img" src="images/logo.svg" alt="Cup Time">
+        </a>
+
+        <nav class="navigation header__navigation">
+            <ul class="navigation__list navigation-list">
+                <li class="navigation-list__item">
+                    <a href="#" class="navigation-list__link navigation-list__link--active">Чай</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#" class="navigation-list__link">Кофе</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#" class="navigation-list__link">Чайники</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#" class="navigation-list__link">Турки</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#" class="navigation-list__link">Прочее</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="cart">
+            <a href="cart.html" class="cart__link">6</a>
+        </div>
+    </div>
+</header>
+
+<main class="main-cart">
+    <section class="cart">
+        <div class="cart-container">
+            <h2 class="title cart__title">Корзина (6)</h2>
+            <ul class="cart-list cart__list">
+                <li class="cart-list__item">
+                    <span class="cart-list__name">Кокосовая матча</span>
+                    <div class="cart-list__controls">
+                        <button class="button--decrease">-</button>
+                        <label class="cart-list__control">
+                            <input type="text" class="cart-list__count">
+                        </label>
+                        <button class="button--increase">+</button>
+                    </div>
+                    <span class="cart-list__price">390 ₽</span>
+                </li>
+                <li class="cart-list__item">
+                    <span class="cart-list__name">Зеленый индо...</span>
+                    <div class="cart-list__controls">
+                        <button class="button--decrease">-</button>
+                        <label class="cart-list__control">
+                            <input type="text" class="cart-list__count" value="2">
+                        </label>
+                        <button class="button--increase">+</button>
+                    </div>
+                    <span class="cart-list__price">680 ₽</span>
+                </li>
+                <li class="cart-list__item">
+                    <span class="cart-list__name">Черный чай из...</span>
+                    <div class="cart-list__controls">
+                        <button class="button--decrease">-</button>
+                        <label class="cart-list__control">
+                            <input type="text" class="cart-list__count">
+                        </label>
+                        <button class="button--increase">+</button>
+                    </div>
+                    <span class="cart-list__price">380 ₽</span>
+                </li>
+                <li class="cart-list__item">
+                    <span class="cart-list__name">Чай черный Ла...</span>
+                    <div class="cart-list__controls">
+                        <button class="button--decrease">-</button>
+                        <label class="cart-list__control">
+                            <input type="text" class="cart-list__count">
+                        </label>
+                        <button class="button--increase">+</button>
+                    </div>
+                    <span class="cart-list__price">390 ₽</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="delivery">
+        <div class="cart-container">
+            <h2 class="delivery-form__title">Доставка</h2>
+            <form action="" class="delivery-form delivery__form">
+                <label class="delivery-form__control">
+                    <input class="delivery-form__input" placeholder="Имя" type="text">
+                </label>
+                <label class="delivery-form__control">
+                    <input class="delivery-form__input" placeholder="Телефон" type="text">
+                </label>
+                <label class="delivery-form__control">
+                    <input class="delivery-form__input" placeholder="Адрес" type="text">
+                </label>
+                <h4 class="delivery-form__subtitle">Оплата</h4>
+                <div class="delivery-form__radios">
+                    <div class="delivery-form__radios--card">
+                        <input class="delivery-form__input" type="radio" id="card">
+                        <label for="card" class="delivery-form__control">Картой</label>
+                    </div>
+                    <div class="delivery-form__radios--cash">
+                        <input class="delivery-form__input" type="radio" id="cash">
+                        <label for="cash" class="delivery-form__control">Наличными</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="site-info">
+            <a href="index.html" class="logo">
+                <img class="logo__img" src="images/logo.svg" alt="Cup Time">
+            </a>
+            <span class="footer__copyright">©CUPTIME, 2024</span>
+            <dl class="developers-list">
+                <dt class="developers-list__post">Designer:</dt>
+                <dd class="developers-list__name">Anastasia Ilina</dd>
+                <dt class="developers-list__post">Developer:</dt>
+                <dd class="developers-list__developer">Khvatov Maksim</dd>
+            </dl>
+        </div>
+        <div class="site-map">
+            <nav class="navigation footer__navigation">
+                <ul class="navigation__list navigation-list">
+                    <li class="navigation-list__item">Чай</li>
+                    <li class="navigation-list__item">Кофе</li>
+                    <li class="navigation-list__item">Чайники</li>
+                    <li class="navigation-list__item">Турки</li>
+                    <li class="navigation-list__item">Прочее</li>
+                </ul>
+            </nav>
+            <div class="socials">
+                <a href="" class="socials__mail"></a>
+                <ul class="socials-list socials__list">
+                    <li class="socials-list__item">
+                        <a href="" class="socials-list__link">
+                            <img src="images/icons/telegram.svg" alt="Телеграм" class="socials-list__icon">
+                        </a>
+                        <a href="" class="socials-list__link">
+                            <img src="images/icons/youtube.svg" alt="Ютуб" class="socials-list__icon">
+                        </a>
+                        <a href="" class="socials-list__link">
+                            <img src="images/icons/vk.svg" alt="Вконтакте" class="socials-list__icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
